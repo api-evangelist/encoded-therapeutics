@@ -1,8 +1,25 @@
 aid: encoded-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/encoded-therapeutics.png
 name: Encoded Therapeutics
-description: 'Encoded Therapeutics is a company surfaced as a portfolio company of gv, menlo-ventures,
-  softbank-vision-fund and added to the API Evangelist network as a stub for enrichment. Sector: life-sciences.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Encoded Therapeutics is a clinical-stage biopharmaceutical company developing
+  next-generation gene therapies for neurological disorders, translating precision genetic
+  science into transformative genetic medicines. Its Genetic Medicines Product Engine
+  supports a pipeline led by ETX101, an investigational AAV gene therapy for SCN1A-positive
+  Dravet Syndrome, alongside additional research programs. Backed by GV, Menlo Ventures,
+  and SoftBank Vision Fund, the company is added to the API Evangelist network as a
+  life-sciences profile. As a clinical-stage therapeutics company it publishes no public
+  developer API, SDK, or developer portal; this profile captures its identity for the network.'
 url: https://raw.githubusercontent.com/api-evangelist/encoded-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Life Sciences
+- Gene Therapy
+- Biotechnology
+- Genetic Medicine
+- Neurology
+- Pharmaceuticals
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,4 +48,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://encoded.com
+  url: https://encoded.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
